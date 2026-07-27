@@ -1,0 +1,4 @@
+{"expectations":{"codes":["UNKNOWN_CITATION_DOCUMENT"],"description":"A cited span references a document record that is absent.","status":"indeterminate"},"id":"unknown_citation_document","type":"trace"}
+{"as_of":"2020-01-01T00:00:00Z","id":"q1","occurred_at":"2020-01-01T00:00:00Z","text":"What source supports this?","type":"query"}
+{"document_id":"ghost-document","end":4,"id":"c1","start":0,"text":"none","type":"citation"}
+{"declared_at":"2019-01-01T00:00:00Z","id":"mk1","knowledge_cutoff":"2019-01-01T00:00:00Z","model":"historical-model","provider":"fixture","type":"model_knowledge"}

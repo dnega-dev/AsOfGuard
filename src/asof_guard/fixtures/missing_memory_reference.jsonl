@@ -1,0 +1,4 @@
+{"expectations":{"codes":["MISSING_MEMORY_REFERENCE"],"description":"A memory read references a write that is absent from the trace.","status":"indeterminate"},"id":"missing_memory_reference","type":"trace"}
+{"as_of":"2020-01-01T00:00:00Z","id":"q1","occurred_at":"2020-01-01T00:00:00Z","text":"What was remembered?","type":"query"}
+{"id":"mr1","memory_id":"ghost-memory","read_at":"2020-01-01T00:00:00Z","type":"memory_read"}
+{"declared_at":"2019-01-01T00:00:00Z","id":"mk1","knowledge_cutoff":"2019-01-01T00:00:00Z","model":"historical-model","provider":"fixture","type":"model_knowledge"}

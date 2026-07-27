@@ -1,0 +1,6 @@
+{"expectations": {"codes": ["MEMORY_SOURCE_AFTER_CUTOFF"], "description": "A seemingly old memory cites a future source.", "status": "contaminated"}, "id": "memory_source_after_cutoff", "type": "trace"}
+{"as_of": "2020-01-01T00:00:00Z", "id": "q1", "occurred_at": "2020-01-01T00:00:00Z", "text": "What was true then?", "type": "query"}
+{"content": "Historical rule applies.", "created_at": "2021-01-01T00:00:00Z", "id": "future", "published_at": "2021-01-01T00:00:00Z", "source_type": "document", "supersedes": [], "title": "Historical source", "type": "document", "valid_from": "2021-01-01T00:00:00Z", "valid_to": null}
+{"content": "future-derived", "id": "m1", "learned_at": "2019-01-01T00:00:00Z", "source_document_ids": ["future"], "type": "memory_write", "written_at": "2019-01-01T00:00:00Z"}
+{"id": "mr1", "memory_id": "m1", "read_at": "2020-01-01T00:00:00Z", "type": "memory_read"}
+{"declared_at": "2019-01-01T00:00:00Z", "id": "mk1", "knowledge_cutoff": "2019-01-01T00:00:00Z", "model": "historical-model", "provider": "fixture", "type": "model_knowledge"}
