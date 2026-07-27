@@ -1,0 +1,5 @@
+{"expectations": {"codes": ["MISSING_MEMORY_LEARNED_AT"], "description": "A consumed memory has no learning timestamp.", "status": "indeterminate"}, "id": "missing_memory_learned_at", "type": "trace"}
+{"as_of": "2020-01-01T00:00:00Z", "id": "q1", "occurred_at": "2020-01-01T00:00:00Z", "text": "What was true then?", "type": "query"}
+{"content": "undated fact", "id": "m1", "learned_at": null, "source_document_ids": [], "type": "memory_write", "written_at": "2019-01-01T00:00:00Z"}
+{"id": "mr1", "memory_id": "m1", "read_at": "2020-01-01T00:00:00Z", "type": "memory_read"}
+{"declared_at": "2019-01-01T00:00:00Z", "id": "mk1", "knowledge_cutoff": "2019-01-01T00:00:00Z", "model": "historical-model", "provider": "fixture", "type": "model_knowledge"}

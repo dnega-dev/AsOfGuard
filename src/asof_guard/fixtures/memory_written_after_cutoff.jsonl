@@ -1,0 +1,5 @@
+{"expectations":{"codes":["MEMORY_WRITTEN_AFTER_CUTOFF"],"description":"A memory learned earlier is persisted only after the historical cutoff.","status":"contaminated"},"id":"memory_written_after_cutoff","type":"trace"}
+{"as_of":"2020-01-01T00:00:00Z","id":"q1","occurred_at":"2020-01-01T00:00:00Z","text":"What was remembered then?","type":"query"}
+{"content":"old fact, later persistence","id":"m1","learned_at":"2019-01-01T00:00:00Z","source_document_ids":[],"type":"memory_write","written_at":"2021-01-01T00:00:00Z"}
+{"id":"mr1","memory_id":"m1","read_at":"2020-01-01T00:00:00Z","type":"memory_read"}
+{"declared_at":"2019-01-01T00:00:00Z","id":"mk1","knowledge_cutoff":"2019-01-01T00:00:00Z","model":"historical-model","provider":"fixture","type":"model_knowledge"}

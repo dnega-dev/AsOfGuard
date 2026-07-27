@@ -1,0 +1,5 @@
+{"expectations":{"codes":["MISSING_MEMORY_READ_AT"],"description":"A consumed memory read omits its access timestamp.","status":"indeterminate"},"id":"missing_memory_read_at","type":"trace"}
+{"as_of":"2020-01-01T00:00:00Z","id":"q1","occurred_at":"2020-01-01T00:00:00Z","text":"What was remembered?","type":"query"}
+{"content":"old fact","id":"m1","learned_at":"2019-01-01T00:00:00Z","source_document_ids":[],"type":"memory_write","written_at":"2019-01-01T00:00:00Z"}
+{"id":"mr1","memory_id":"m1","read_at":null,"type":"memory_read"}
+{"declared_at":"2019-01-01T00:00:00Z","id":"mk1","knowledge_cutoff":"2019-01-01T00:00:00Z","model":"historical-model","provider":"fixture","type":"model_knowledge"}

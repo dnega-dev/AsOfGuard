@@ -1,0 +1,4 @@
+{"expectations": {"codes": ["UNKNOWN_DOCUMENT"], "description": "A retrieval references a missing document record.", "status": "indeterminate"}, "id": "unknown_document", "type": "trace"}
+{"as_of": "2020-01-01T00:00:00Z", "id": "q1", "occurred_at": "2020-01-01T00:00:00Z", "text": "What was true then?", "type": "query"}
+{"artifact_ids": [], "declared_as_of": "2020-01-01T00:00:00Z", "document_ids": ["ghost"], "id": "r1", "occurred_at": "2020-01-01T00:00:00Z", "treatment": "current", "type": "retrieval"}
+{"declared_at": "2019-01-01T00:00:00Z", "id": "mk1", "knowledge_cutoff": "2019-01-01T00:00:00Z", "model": "historical-model", "provider": "fixture", "type": "model_knowledge"}

@@ -1,0 +1,3 @@
+{"expectations":{"codes":["MISSING_MODEL_KNOWLEDGE_CUTOFF"],"description":"A named model omits its declared training-knowledge boundary.","status":"indeterminate"},"id":"missing_model_knowledge_cutoff","type":"trace"}
+{"as_of":"2020-01-01T00:00:00Z","id":"q1","occurred_at":"2020-01-01T00:00:00Z","text":"What was known?","type":"query"}
+{"declared_at":"2019-01-01T00:00:00Z","id":"mk1","knowledge_cutoff":null,"model":"undated-model","provider":"fixture","type":"model_knowledge"}

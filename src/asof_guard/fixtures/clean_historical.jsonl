@@ -1,0 +1,9 @@
+{"expectations": {"codes": [], "description": "A fully timestamped historical retrieval, memory access, citation, and model declaration.", "status": "clean"}, "id": "clean_historical", "type": "trace"}
+{"as_of": "2020-01-01T00:00:00Z", "id": "q1", "occurred_at": "2020-01-01T00:00:00Z", "text": "What was true then?", "type": "query"}
+{"content": "Historical rule applies.", "created_at": "2017-12-01T00:00:00Z", "id": "d1", "published_at": "2018-01-01T00:00:00Z", "source_type": "document", "supersedes": [], "title": "Historical source", "type": "document", "valid_from": "2018-01-01T00:00:00Z", "valid_to": null}
+{"artifact_type": "embedding_index", "built_at": "2019-06-01T00:00:00Z", "id": "a1", "knowledge_cutoff": "2019-01-01T00:00:00Z", "source_document_ids": ["d1"], "type": "artifact"}
+{"artifact_ids": ["a1"], "declared_as_of": "2020-01-01T00:00:00Z", "document_ids": ["d1"], "id": "r1", "occurred_at": "2020-01-01T00:00:00Z", "treatment": "current", "type": "retrieval"}
+{"content": "Historical rule applies.", "id": "m1", "learned_at": "2019-02-01T00:00:00Z", "source_document_ids": ["d1"], "type": "memory_write", "written_at": "2019-02-01T00:00:00Z"}
+{"id": "mr1", "memory_id": "m1", "read_at": "2020-01-01T00:00:00Z", "type": "memory_read"}
+{"document_id": "d1", "end": 15, "id": "c1", "retrieval_id": "r1", "start": 0, "text": "Historical rule", "type": "citation"}
+{"declared_at": "2019-01-01T00:00:00Z", "id": "mk1", "knowledge_cutoff": "2019-01-01T00:00:00Z", "model": "historical-model", "provider": "fixture", "type": "model_knowledge"}
