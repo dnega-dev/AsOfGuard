@@ -1,5 +1,9 @@
 # AsOfGuard
 
+[![CI](https://github.com/dnega-dev/AsOfGuard/actions/workflows/ci.yml/badge.svg)](https://github.com/dnega-dev/AsOfGuard/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB)](https://www.python.org/)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 AsOfGuard is a zero-runtime-dependency Python 3.9+ verifier for **temporal contamination** in retrieval-augmented generation (RAG) and agent-memory traces. It asks a narrow, auditable question:
 
 > Given a query with an `as_of` boundary, did any observable retrieval, source version, memory, citation, embedding index, or reranker artifact violate that boundary?
