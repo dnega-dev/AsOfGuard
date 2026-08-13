@@ -24,6 +24,12 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/dnega-dev/AsOfGuard"
+Repository = "https://github.com/dnega-dev/AsOfGuard"
+Issues = "https://github.com/dnega-dev/AsOfGuard/issues"
+Changelog = "https://github.com/dnega-dev/AsOfGuard/blob/main/CHANGELOG.md"
+
 [project.scripts]
 asof-guard = "asof_guard.cli:main"
 
